@@ -17,6 +17,6 @@
     "vitepress": "1.0.0-rc.44"
   },
   "peerDependencies": {
-    "vue": "^3.2"
+    "vue": "^3.4"
   }
 }
