@@ -1,0 +1,21 @@
+{
+  "name": "inkcre-document",
+  "version": "1.0.0",
+  "description": "document of the core product InKCre",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "InKCreThing",
+  "license": "CC-BY-SA 4.0",
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.44"
+  },
+  "peerDependencies": {
+    "vue": "^3.2"
+  }
+}
