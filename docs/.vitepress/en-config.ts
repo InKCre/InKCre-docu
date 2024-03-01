@@ -18,8 +18,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
         nav: [
             { text: "Home", link: "/" },
-            { text: "User Manual", link: "/zh-cn/user-guide/index" },
-            { text: "Tech Manual", link: "/zh-cn/tech-guide/index" }
+            { text: "User Manual", link: "/user-guide/index" },
+            { text: "Tech Manual", link: "/tech-guide/index" }
         ],
         sidebar: {
             "/user-guide/": [
