@@ -11,22 +11,27 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             prev: '上一篇',
             next: '下一篇'
         },
-        search: {
-            provider: 'local'
-        },
         editLink: {
             pattern: 'https://github.com/InKCre/InKCre-docu/edit/main/docs/:path',
             text: "在GitHub上编辑该页面"
         },
 
         nav: [
-            { text: "主页", link: "/" }
+            { text: "主页", link: "/zh-cn/" },
+            { text: "用户手册", link: "/zh-cn/user-guide/index" },
+            { text: "开发手册", link: "/zh-cn/tech-guide/index" }
         ],
-        sidebar: [
-        ],
+        sidebar: {
+            "/zh-cn/user-guide/": [
+
+            ],
+            "/zh-cn/tech-guide/": [
+
+            ]
+        },
         outline: {
             level: "deep", 
-            label: "目录", 
+            label: "文章目录", 
         },
         
         i18nRouting: true

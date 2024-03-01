@@ -11,9 +11,6 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             prev: 'Previous',
             next: 'Next'
         },
-        search: {
-            provider: 'local'
-        },
         editLink: {
             pattern: 'https://github.com/InKCre/.github/edit/main/docs/:path',
             text: "Edit this page on GitHub"
@@ -21,32 +18,17 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
         nav: [
             { text: "Home", link: "/" },
-            { text: "Efforts", link: "/efforts" },
-            {
-                text: "About",
-                items: [
-                    {
-                        text: "Our Mission",
-                        link: "/about/mission",
-                        activeMatch: "/about/mission",
-                    },
-            
-                    {
-                        text: "Join Us",
-                        link: "/about/join",
-                        activeMatch: "/about/join",
-                    },
+            { text: "User Manual", link: "/zh-cn/user-guide/index" },
+            { text: "Tech Manual", link: "/zh-cn/tech-guide/index" }
+        ],
+        sidebar: {
+            "/user-guide/": [
 
-                    {
-                        text: "About Us",
-                        link: "/about/who-are-we",
-                        activeMatch: "/about/who-are-we"
-                    },
-                ]
-            }
-        ],
-        sidebar: [
-        ],
+            ],
+            "/tech-guide/": [
+
+            ]
+        },
         outline: {
             level: "deep", 
             label: "Content", 
