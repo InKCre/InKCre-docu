@@ -1,25 +1,30 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "InKCre Document"
-  text: "The technical document of InKCre"
-  tagline: My great project tagline
+  name: "InKCre"
+  text: "Process information efficiently in one stand"
+  tagline: InKCre's tech and support document
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Introduction
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: User Manual
+      link: /user-guide/index
+    - theme: alt
+      text: Developer Manual
+      link: /tech-guide/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: InKCreThing
+    details: The team developes and maintains InKCre.
+    link: https://docs.inkcre-thing.hadream.ltd
+  - title: GitHub
+    details: We are open source.
+    link: https://github.com/InKCre/InKCre
+
+editLink: false
+lastUpdated: false
 ---
 
