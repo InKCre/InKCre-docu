@@ -18,14 +18,16 @@ hero:
 
 features:
   - title: 翰墨化机团队
-    details: The team develope and maintain InKCre.
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 开发和维护翰墨化机的团队
+    link: https://docs.inkcre-thing.hadream.ltd
   - title: GitHub
     details: 我们秉承开源精神，查看我们的软件仓库
     link: https://github.com/InKCre/InKCre
 
+footer:
+  - message: "test"
+    copyright: "test"
+
 editLink: false
 lastUpdated: false
 ---
-

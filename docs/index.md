@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Introduction
-      link: /inroduction
+      link: /introduction
     - theme: alt
       text: User Manual
       link: /user-guide/index
@@ -19,8 +19,7 @@ hero:
 features:
   - title: InKCreThing
     details: The team developes and maintains InKCre.
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: https://docs.inkcre-thing.hadream.ltd
   - title: GitHub
     details: We are open source.
     link: https://github.com/InKCre/InKCre
