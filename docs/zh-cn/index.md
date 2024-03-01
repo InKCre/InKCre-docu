@@ -2,19 +2,23 @@
 layout: home
 
 hero:
-  name: "InKCre 文档"
-  tagline: InKCre的技术与支持文档
+  name: "翰墨化机"
+  text: "统一高效地处理信息，服务创造"
+  tagline: "翰墨化机软件知识库"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 软件介绍
+      link: /zh-cn/introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 用户手册
+      link: /zh-cn/user-guide/index
+    - theme: alt
+      text: 开发手册
+      link: /zh-cn/tech-guide/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 翰墨化机团队
+    details: The team develope and maintain InKCre.
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: GitHub
