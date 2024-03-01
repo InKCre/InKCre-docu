@@ -6,6 +6,7 @@ import { zhConfig } from './zh-config.ts'
 export default defineConfig({
     title: "InKCre Document",
     description: "InKCre's Knowledge Base",
+    lastUpdated: true,
 
     locales: {
         root: {

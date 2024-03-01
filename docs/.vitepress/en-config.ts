@@ -29,11 +29,24 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
             ]
         },
+
         outline: {
             level: "deep", 
             label: "Content", 
         },
+
+        footer: {
+            message: 'Released under CC-BY-SA-4.0 license',
+            copyright: 'Copyright © 2024-present InKCreThing'
+        },
         
-        i18nRouting: true
+        lastUpdated: {
+            text: "Last updated at",
+            formatOptions: {
+                dateStyle: "full",
+                timeStyle: "medium"
+            }
+        },
+        i18nRouting: true,
     }
 }
