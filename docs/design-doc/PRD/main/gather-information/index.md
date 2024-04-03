@@ -32,11 +32,11 @@ Considering this system is a system building on morden computer, all data/inform
 The virtual life is reffering to the world/life that the world people built as the mirror of the real world. \
 *TODO: weried, maybe wrong*
 
-1. [Native App](./where/virtual-life/native-app.md)
-2. [Web](./where/virtual-life/web.md)
-3. [RSS](./where/virtual-life/rss.md)
-4. [Email](./where/virtual-life/email.md)
-5. [SMS](./where/virtual-life/sms.md)
+1. [From Native App](./where/virtual-life/native-app.md)
+2. [From Web](./where/virtual-life/web.md)
+3. [From RSS](./where/virtual-life/rss.md)
+4. [From Email](./where/virtual-life/email.md)
+5. [From SMS](./where/virtual-life/sms.md)
 
 ### From the Real Life
 
@@ -44,6 +44,25 @@ The virtual life is reffering to the world/life that the world people built as t
 2. Newspaper
 3. Word of Mouth
 4. Camera
-5. Brain
+5. Brain (Thought, things you see)
+6. Books
+7. Notes
 
+## What to Gather
 
+You might say, just grab all things down, make sure the information is complete and correct. \
+That's right, in the stage of gathering, we should foucs on Complete and Correct.
+
+But based on different types of information/data and various sources, they should have their own \
+specialized answer of "What to Gather".
+
+Instead of discussing one by one, we can abstract some commonalities from them. \
+These are mostly the case/need.
+
+1. All
+2. Manual Selected
+3. Auto Selected
+
+## How to Gather
+
+It's the question about the time, method of gathering, it also need to be specialized.
