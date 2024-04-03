@@ -19,6 +19,7 @@ As distributed, standalone system are not friendly when we need to output. \
 Our system is designed to gather all stuff in one place. \
 PS: Or at least you can access all these from one place.
 
+For details, check [Gather Information](./gather-information/index.md)
 
 ## Process Information
 
