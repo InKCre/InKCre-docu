@@ -27,6 +27,13 @@ Considering this system is a system building on morden computer, all data/inform
 4. Video
 5. Chart
 
+The questions information sources need to figured out is:
+
+1. what is a source
+2. what is an item
+
+Here we divided source into these types based on where are they from.
+
 ### From the Virtual Life
 
 The virtual life is reffering to the world/life that the world people built as the mirror of the real world. \
@@ -66,3 +73,8 @@ These are mostly the case/need.
 ## How to Gather
 
 It's the question about the time, method of gathering, it also need to be specialized.
+
+Every source has different method to gather, techniqually and physically. \
+Such as we can use things like Memos/Flow to gather our thoughts, use RSSReader to gather information from RSS ...
+
+Whatever the source is, they have a minium unit, we named it Item. (TODO, not a good name)
