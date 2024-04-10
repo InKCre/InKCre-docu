@@ -89,10 +89,31 @@ Whatever the source is, they have a minium unit, we named it Item. (TODO, not a 
 
 In the module of gathering information, its interface is important.
 
-DataPackage
+Gather Information are consist of these parts: \
+Grab, Store, Present, Screen, Process
 
-DataStorage
+### Source
 
-Source
+Implement how to gather of the specific source.
 
-Collector
+Source only need to output what its get using InformationPackage.
+
+Source will has a function to check if there's new InformationPackage.
+
+### DataStorage
+
+Local Filesystem, WebDAV, HTTP ... whatever it is, allow the data act the same.
+
+### InformationPackage
+
+It's a flexiable concept.
+
+### Filiter
+
+Filiter the Information Packages.
+
+### PreProcessor
+
+### Collector
+
+Combine source, storage, filiter, preProcesser together, and run automatically.
