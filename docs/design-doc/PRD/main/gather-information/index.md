@@ -11,6 +11,12 @@ The three main questions we need to answer are listed as following:
 2. What to gather
 3. How to gather
 
+Every source should answer these three questions. \
+Which means every source has their implementation of where, what, how to gather. \
+
+And what types of source should we supported? \
+
+
 ## Where to Gather
 
 There is a big difference since the Internet emerged,
@@ -78,3 +84,15 @@ Every source has different method to gather, techniqually and physically. \
 Such as we can use things like Memos/Flow to gather our thoughts, use RSSReader to gather information from RSS ...
 
 Whatever the source is, they have a minium unit, we named it Item. (TODO, not a good name)
+
+## Overall Abstraction
+
+In the module of gathering information, its interface is important.
+
+DataPackage
+
+DataStorage
+
+Source
+
+Collector

@@ -8,6 +8,8 @@ And we shouldn't forgot desktop apps though most of them are built with electron
 
 We will check them out one by one.
 
-## Mobile Apps
+Actually, most of them are content platform/community like knowledge community, social media, forums.
 
-Actually, most of them are content platform/community like knowledge community, social media, forums. 
+## Android Apps
+
+## iOS Apps
