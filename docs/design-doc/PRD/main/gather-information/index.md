@@ -3,47 +3,21 @@
 Gather Information is one of the main features, playing the INPUT role of the whole system.\
 Gather Information is defined as the step of gathering, downloading, converting any outside-of-system information and data into the system.
 
-TODO: copy the introduction from index.md
-
-The three main questions we need to answer are listed as following:
-
-1. Where to gather
-2. What to gather
-3. How to gather
-
-Every source should answer these three questions. \
-Which means every source has their implementation of where, what, how to gather. \
-
-And what types of source should we supported? \
-
+> What this module are going to do is **automatically** gather all information **in one place**.
 
 ## Where to Gather
 
 There is a big difference since the Internet emerged,
-In the past days, we can only gather information from real world -- newspaper, word of mouth, travel ... \
+In the past, we can only gather information from real world -- newspaper, word of mouth, travel ... \
 But nowadays, you can gather information without the limitation of time and space, which is why information explotion like this.
 
-So, information/data are everywhere, and they can be represented in various ways. 
+So, information/data are everywhere, and they can be represented in various ways.
 
-Considering this system is a system building on morden computer, all data/information can be represented/stored as:
-
-1. Character
-2. Image
-3. Audio
-4. Video
-5. Chart
-
-The questions information sources need to figured out is:
-
-1. what is a source
-2. what is an item
-
-Here we divided source into these types based on where are they from.
+**First**, we need to figure out all the places having information (that valuable to us, need to be gathered).
 
 ### From the Virtual Life
 
-The virtual life is reffering to the world/life that the world people built as the mirror of the real world. \
-*TODO: weried, maybe wrong*
+The virtual life is reffering to the world/life that the world people built as the mirror of the real world. 
 
 1. [From Native App](./where/virtual-life/native-app.md)
 2. [From Web](./where/virtual-life/web.md)
@@ -53,30 +27,23 @@ The virtual life is reffering to the world/life that the world people built as t
 
 ### From the Real Life
 
-1. Magazine
-2. Newspaper
-3. Word of Mouth
-4. Camera
-5. Brain (Thought, things you see)
-6. Books
-7. Notes
+1. [Paper Data](./where/real-life/paper-data.md)
+2. [Word of Mouth](./where/real-life/word-of-mouth.md)
+3. [Camera](./where/real-life/camera.md)
+4. [Brain, Mind](./where/real-life/brain.md)
 
 ## What to Gather
 
 You might say, just grab all things down, make sure the information is complete and correct. \
-That's right, in the stage of gathering, we should foucs on Complete and Correct.
+That's right, in the stage of gathering, we should foucs on **Complete and Correct** first.
 
-But based on different types of information/data and various sources, they should have their own \
-specialized answer of "What to Gather".
+But it's not a wise way for following operations such as pre-processing, reading ...
 
-Instead of discussing one by one, we can abstract some commonalities from them. \
-These are mostly the case/need.
-
-1. All
-2. Manual Selected
-3. Auto Selected
+Grab everything without a point will slow you down, you need to filter and select.
 
 ## How to Gather
+
+**CHANGE IT, unclear**
 
 It's the question about the time, method of gathering, it also need to be specialized.
 
