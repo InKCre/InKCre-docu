@@ -29,7 +29,7 @@ The virtual life is reffering to the world/life that the world people built as t
 
 1. [Paper Data](./where/real-life/paper-data.md)
 2. [Word of Mouth](./where/real-life/word-of-mouth.md)
-3. [Camera](./where/real-life/camera.md)
+3. [Vision](./where/real-life/camera.md)
 4. [Brain, Mind](./where/real-life/brain.md)
 
 ## What to Gather
