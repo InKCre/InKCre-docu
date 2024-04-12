@@ -45,14 +45,12 @@ Grab everything without a point will slow you down, you need to filter and selec
 
 **CHANGE IT, unclear**
 
-It's the question about the time, method of gathering, it also need to be specialized.
+It's a question about when and the implementation of gathering.
 
 Every source has different method to gather, techniqually and physically. \
-Such as we can use things like Memos/Flow to gather our thoughts, use RSSReader to gather information from RSS ...
+Such as, Memos/Flow to gather our thoughts, RSSReader to gather from RSS ...
 
-Whatever the source is, they have a minium unit, we named it Item. (TODO, not a good name)
-
-## Overall Abstraction
+## Abstraction
 
 In the module of gathering information, its interface is important.
 
@@ -61,9 +59,9 @@ Grab, Store, Present, Screen, Process
 
 ### Source
 
-Implement how to gather of the specific source.
+Abstract the real information source.
 
-Source only need to output what its get using InformationPackage.
+Output what it got is the only main feature it has..
 
 Source will has a function to check if there's new InformationPackage.
 
