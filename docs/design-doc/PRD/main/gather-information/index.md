@@ -39,16 +39,14 @@ That's right, in the stage of gathering, we should foucs on **Complete and Corre
 
 But it's not a wise way for following operations such as pre-processing, reading ...
 
-Grab everything without a point will slow you down, you need to filter and select.
+Grab everything without a point will slow you down, filter and select are necessary.
 
 ## How to Gather
 
-**CHANGE IT, unclear**
-
 It's a question about when and the implementation of gathering.
 
-Every source has different method to gather, techniqually and physically. \
-Such as, Memos/Flow to gather our thoughts, RSSReader to gather from RSS ...
+Different sources of information has different implementations, techniqually and physically. \
+No
 
 ## Abstraction
 
@@ -61,17 +59,37 @@ Grab, Store, Present, Screen, Process
 
 Abstract the real information source.
 
-Output what it got is the only main feature it has..
-
-Source will has a function to check if there's new InformationPackage.
+Output what it got is the only main feature it has.. \
+Source will has a feature to get (**new**) InformationPackage.
 
 ### DataStorage
 
-Local Filesystem, WebDAV, HTTP ... whatever it is, allow the data act the same.
+It's your free to store your data at the place you like.
+
+Local Filesystem, WebDAV, HTTP ... whatever it is, DataStorage \
+will make sure they act the same.
+
+Besides, DataStorage makes a one-to-many map from data to storage. \
+Which means you can store a picture in multiple places, for robustness.
+
+Anyway, it abstracts the data (characters, video, audio ...), implement the CRUD and even more about data.
 
 ### InformationPackage
 
-It's a flexiable concept.
+As the definition, information is the processed, contextualized, meaningful data. \
+But why a package, to pack information together, pack what information?
+
+Considering the next step —— Process Information, we should combine related data together \
+so as to provide a context for processing information.
+
+Where can we have an InformationPackage? \
+Typically, from the Source since it's the entrance of information. \
+But you are allowed to build one by yourself.
+
+### Information
+
+Then, what is the element in InformationPackage? \
+Of course is the information:
 
 ### Filiter
 
