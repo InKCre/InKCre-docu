@@ -1,7 +1,8 @@
 # Gather Information
 
 Gather Information is one of the main features, playing the INPUT role of the whole system.\
-Gather Information is defined as the step of gathering, downloading, converting any outside-of-system information and data into the system.
+Gather Information is defined as the step of gathering, downloading, converting any outside-of-system information and data into the system. \
+and ready the information for processing.
 
 > What this module are going to do is **automatically** gather all information **in one place**.
 
@@ -50,10 +51,13 @@ No
 
 ## Abstraction
 
-In the module of gathering information, its interface is important.
+Here we abstract GatherInformation.
 
 Gather Information are consist of these parts: \
-Grab, Store, Present, Screen, Process
+Grab, Store, Screen, PreProcess
+
+And the process following GatherInformation is: \
+[ProcessingInformation](../process-information/index.md) (By yourself)
 
 ### Source
 
@@ -82,21 +86,52 @@ But why a package, to pack information together, pack what information?
 Considering the next step —— Process Information, we should combine related data together \
 so as to provide a context for processing information.
 
-Where can we have an InformationPackage? \
+Where can we get an InformationPackage? \
 Typically, from the Source since it's the entrance of information. \
 But you are allowed to build one by yourself.
 
 ### Information
 
 Then, what is the element in InformationPackage? \
-Of course is the information:
+Of course is the information.
 
-### Filiter
+As information can be anything, and varies from one to one, \
+who will be able to define what is an information?
 
-Filiter the Information Packages.
+There's a general definition (as you see in InformationPackage): \
+
+> Information typically carries some level of relevance, accuracy, and utility for its intended audience.
+
+So, natually, the one who produce the information define what is an information. \
+For instance, authors will organize their text in order and separators like line break, different formats.
+
+Therefore, Source should implement its organizer/extractor to extract **Information** from **Raw Data**.
+
+### Filter
+
+Filter is used for screen qualified items from an array/sequence.
+
+Source itself will output all the things it get, filter is here to throw things you don't want away.
+
+It should support strong conditions such as ValueComparsion, LogicCombination ... \
+Following values should be supported too: InformationPackage, Source, CollectorEnv ...
 
 ### PreProcessor
 
+Well, PreProcessor is a customized processor to process informations automatically.
+
+You can have mutiple PreProcessers act as one by using an AggreatedPreProcessor since the collector \
+shouldn't care about what and how PreProcessors do.
+
+**The aim of PreProcessor** is to help you screen, read, understand information easier! \
+For instance, use Translator translate information to your native language.
+
+In an other word, PreProcessor get the information ready for you to process.
+
 ### Collector
 
-Combine source, storage, filiter, preProcesser together, and run automatically.
+Combine source, storage, filiter, preProcesser together, and run automatically. \
+So you can also call Collector as CollectingPolicy/CollectingRPA.
+
+The collector won't run itself automatically, so it need a runner to run it. \
+For this, we design a Runner for all the tasks, with the Event-Driven Design Pattern.
